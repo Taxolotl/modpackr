@@ -1,0 +1,13 @@
+[package]
+name = "modpackr-gui"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = "0.31.1"
+dotenv = "0.15.0"
+anyhow = "1.0.98"
+rfd = "0.15.3"
+
+[dependencies.modpackr]
+path = "../"
